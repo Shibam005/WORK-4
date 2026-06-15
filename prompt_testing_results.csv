@@ -1,0 +1,157 @@
+Prompt Version,Input,Output,Notes
+Zero Shot,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","Category: Account Security
+Reason: Unauthorized Access / Hacked Account",
+One Shot,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","Here's the classification for the provided email:
+
+**Category:**
+URGENT
+
+**Reason:**
+Security breach and unauthorized access requiring immediate action to secure the account and prevent further fraudulent activity.",
+Few Shot,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","Based on the provided examples and the content of the email, here's the classification:
+
+**Email:**
+""Hello Support Team,
+My account has been hacked, and I can no longer log in.
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+Please help me recover my account immediately.
+Thank you.""
+
+**Category:**
+URGENT
+
+**Reason:**
+Security issue (account compromise, unauthorized access, and financial fraud). The user requires immediate assistance to recover their account and prevent further damage.",
+Role Prompt,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","**Category:** **Account Security / Hacked Account**
+**Reason:** The user reports unauthorized access to their account, including changes to their email address and fraudulent transactions. Immediate action is required to secure the account and prevent further damage.
+
+**Priority:** **High (Urgent)** – This is a critical security issue that requires immediate attention to prevent financial loss and protect the user's data.",
+Chain of Thought,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","Let's break this down step by step:
+
+1. **Identify the customer's issue**:
+   - The customer's account has been hacked.
+   - They cannot log in because their email address was changed.
+   - Unauthorized purchases were made using their saved payment method.
+
+2. **Determine its impact**:
+   - High impact: The customer cannot access their account, and unauthorized transactions have occurred, which may lead to financial loss or data exposure.
+
+3. **Determine urgency**:
+   - High urgency: The account compromise and unauthorized transactions require immediate attention to prevent further damage.
+
+### Final Response:
+
+**Category:** Account Security / Fraud
+**Reason:** Account hacked, unauthorized access, and transactions
+
+**Email:**
+
+---
+**Subject:** Urgent: Account Hacked – Immediate Assistance Required
+
+**Body:**
+Hello [Customer's Name],
+
+Thank you for reaching out to us. We understand the urgency of your situation and will prioritize your request.
+
+To help you recover your account and secure it, please follow these steps:
+
+1. **Verify Your Identity**:
+   - Reply to this email with the following details:
+     - Your full name and registered email address (before the change).
+     - The last four digits of your saved payment method (if known).
+     - Any recent transaction details you recall.
+
+2. **Account Recovery**:
+   - Our team will verify your identity and guide you through the account recovery process.
+   - We will also assist in reversing any unauthorized transactions.
+
+3. **Security Measures**:
+   - Once recovered, we recommend updating your password and removing any unauthorized payment methods.
+   - Enable two-factor authentication (2FA) for added security.
+
+We apologize for the inconvenience and appreciate your patience. Our team will respond within the next 24 hours to assist you further.
+
+For immediate assistance, you can also contact our 24/7 support line at [Support Phone Number].
+
+Best regards,
+[Your Name]
+[Support Team]
+[Company Name]
+
+---",
+ReAct,"Hello Support Team,
+
+My account has been hacked, and I can no longer log in.
+
+Someone has changed my email address and made unauthorized purchases using my saved payment method.
+
+Please help me recover my account immediately.
+
+Thank you.","**Observe: Identify important facts**
+
+1. **Account Compromise**: The customer states their account has been hacked.
+2. **Login Issue**: They can no longer log in to their account.
+3. **Unauthorized Changes**: The attacker changed the email address associated with the account.
+4. **Financial Impact**: Unauthorized purchases were made using a saved payment method.
+5. **Urgency**: The customer requests immediate assistance to recover their account.
+
+**Reason: Explain the urgency**
+The urgency is high because:
+- The account is compromised, and the attacker has already made unauthorized changes (email) and financial transactions.
+- The customer is locked out and cannot access their account, which may contain sensitive data or further financial risks.
+- Immediate action is needed to prevent additional fraudulent activity and secure the account.
+
+**Act: Provide the final classification**
+**Classification: Critical (High Urgency) – Account Compromise & Fraud**
+**Recommended Action:**
+1. **Immediate Account Lock**: Temporarily lock the account to prevent further unauthorized access.
+2. **Verification Process**: Initiate a secure verification process (e.g., identity verification, security questions) to confirm the customer's identity.
+3. **Email Recovery**: Assist in recovering the original email address or setting up a new one.
+4. **Fraud Investigation**: Investigate and reverse unauthorized transactions.
+5. **Password Reset**: Require a mandatory password reset after recovery.
+6. **Security Review**: Advise the customer to review and update security settings (e.g., 2FA, payment methods).
+
+**Next Steps:**
+- Escalate to the fraud/security team for immediate intervention.
+- Follow up with the customer to confirm resolution and provide security recommendations.",

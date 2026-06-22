@@ -1,0 +1,88 @@
+{
+    "name": "SHIBAM PAL",
+    "email": "pshibam05@gmail.com",
+    "phone": "+91 9831369788",
+    "location": "Kolkata, West Bengal",
+    "summary": "Motivated and passionate in Software Development, AI and Cybersecurity. Having hands-on experience in building AI full-stack web applications, RAG Systems, machine learning models, and robust threat detection systems using modern frameworks and cloud technologies, focusing on innovation and real world impact.",
+    "skills": [
+        "Python",
+        "Java",
+        "JavaScript (React.js, Node.js, Express.js)",
+        "HTML",
+        "CSS",
+        "Agentic AI Fundamentals",
+        "Intelligent Agent Systems",
+        "Single & Multi-Agent Architectures",
+        "AI Workflow Automation",
+        "LangChain & LangGraph",
+        "RAG pipelines",
+        "Prompt & Context Engineering",
+        "Memory-Based AI Applications",
+        "FastAPI & REST APIs",
+        "Database Integration",
+        "API Design & Deployment",
+        "Docker & Containerization",
+        "Git & GitHub Actions (CI/CD)",
+        "AWS & Cloud Fundamentals",
+        "Deployment & Automation",
+        "Model Evaluation & Monitoring",
+        "Pydantic & Structured Outputs",
+        "LLM Deployment & Optimization",
+        "AI Security & Guardrails",
+        "Analytical Thinking",
+        "Communication",
+        "Team & Time Management",
+        "Adaptability",
+        "Decision Making"
+    ],
+    "education": [
+        {
+            "degree": "B.Tech Artificial Intelligence and Data Science",
+            "institution": "Anna University",
+            "year": "2024 – Present",
+            "score": "CGPA: 7.23"
+        },
+        {
+            "degree": null,
+            "institution": "Vivekananda Mission School (CISCE)",
+            "year": "2022 – 2024",
+            "score": "Indian School Certificate ISC | 92.4%"
+        },
+        {
+            "degree": "Indian Certificate of Secondary Education ICSE",
+            "institution": null,
+            "year": null,
+            "score": "95.6 %"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Mentron technologies LLP",
+            "role": "Artificial Intelligence Intern (Remote)",
+            "duration": "Jan 2026 – April 2026",
+            "responsibilities": [
+                "Developed AI applications using LangChain and LangGraph with memory, reasoning, and tool integration.",
+                "Built single and multi-agent systems using ReAct, Supervisor, and Swarm architectures.",
+                "Designed RAG-based AI solutions for research assistants and document Q&A with advanced retrieval techniques.",
+                "Implemented MCP, A2A protocols, and stateful workflows for scalable AI agent communication.",
+                "Evaluated and secured LLM applications using DeepEval, LangSmith, and prompt injection guardrails.",
+                "Deployed production-ready AI services using Docker, FastAPI, BentoML, GitHub Actions CI/CD, and cloud platforms.",
+                "Fine-tuned open-source LLMs with LoRA/QLoRA and developed structured AI pipelines using LlamaIndex and Pydantic."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Production RAG Application – Ask My Docs",
+            "description": "Developed a production-grade domain-specific RAG system using hybrid retrieval (BM25 + vector search) and cross-encoder reranking, improving document retrieval relevance by 30%+. Implemented citation-based response generation and a CI-integrated evaluation pipeline, achieving 90%+ answer accuracy while reducing hallucinations and ensuring reliable knowledge retrieval.",
+            "technologies": []
+        }
+    ],
+    "certifications": [],
+    "languages": [
+        "English",
+        "Bengali",
+        "Hindi",
+        "Tamil"
+    ]
+}
